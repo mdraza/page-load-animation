@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar a {
+  color: #ffffff !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+header {
+  margin: 80px 0;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+header .header {
+  padding: 50px;
+  background-color: rgba(23, 162, 184, 0.1019607843);
+}
+header .header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+header .header p {
+  padding: 5px 0;
+}
+header .header .btn {
+  margin-top: 20px;
+}
+
+.section {
+  transition: 0.8s;
+}
+
+.hidden-section {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.section1,
+.section2,
+.section3 {
+  padding: 50px 0;
+}
+.section1 h2,
+.section2 h2,
+.section3 h2 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.section1 .jumbotron {
+  background-color: rgba(250, 235, 215, 0.6784313725) !important;
+}
+
+.section2 .jumbotron {
+  background-color: rgba(139, 195, 74, 0.3607843137) !important;
+}
+
+.section3 .jumbotron {
+  background-color: rgba(205, 220, 57, 0.2392156863) !important;
+} /*# sourceMappingURL=page-load-anim.css.map */
